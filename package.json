@@ -1,0 +1,30 @@
+{
+  "name": "jest-reference",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "lint": "xo .",
+    "format": "xo . --fix"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "globals": [
+      "jest",
+      "test",
+      "expect"
+    ]
+  }
+}
